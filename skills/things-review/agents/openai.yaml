@@ -1,0 +1,7 @@
+interface:
+  display_name: "Things Review"
+  short_description: "Review human obligations across agent work"
+  default_prompt: "Use $things-review to review my current human-agent obligations in Things."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Remind Me"
+  short_description: "Create one verified Things 3 reminder"
+  default_prompt: "Use $remind-me to create a Things 3 reminder from this request."
+
+policy:
+  allow_implicit_invocation: false

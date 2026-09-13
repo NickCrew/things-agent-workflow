@@ -1,0 +1,7 @@
+interface:
+  display_name: "Things Project"
+  short_description: "Build a Things project for agent handoffs"
+  default_prompt: "Use $things-project to build a Things workstream for these human-agent obligations."
+
+policy:
+  allow_implicit_invocation: false

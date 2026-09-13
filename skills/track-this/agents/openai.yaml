@@ -1,0 +1,7 @@
+interface:
+  display_name: "Track This"
+  short_description: "Track your side of an agent handoff"
+  default_prompt: "Use $track-this to capture or update my side of this handoff in Things."
+
+policy:
+  allow_implicit_invocation: false
