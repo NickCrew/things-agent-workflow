@@ -1,3 +1,5 @@
+![Things Agent Workflow: Keep the human side of agent work visible.](docs/assets/readme-banner.webp)
+
 # Things Agent Workflow
 
 Things Agent Workflow keeps the human side of parallel agent work visible. Jira remains the
@@ -25,26 +27,26 @@ in-memory gateway and do not open Things or modify the live database.
 
 ## Tools
 
-| Tool | Purpose |
-| --- | --- |
-| `capture_handoff` | Create one keyed task, decision, message, review, approval, unblock, follow-up, publish, or joint obligation. |
-| `resume_handoff` | Recover the current handoff packet by item ID or stable key. |
-| `transition_handoff` | Move a managed handoff to ready, waiting, deferred, or complete. |
-| `review_handoffs` | Group open obligations into the queues that need human attention. |
-| `build_workstream_project` | Create a Things project with the standard human-control headings. |
-| `workflow_status` | Check Things read access and the required local tags without exposing task content. |
+| Tool                       | Purpose                                                                                                       |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `capture_handoff`          | Create one keyed task, decision, message, review, approval, unblock, follow-up, publish, or joint obligation. |
+| `resume_handoff`           | Recover the current handoff packet by item ID or stable key.                                                  |
+| `transition_handoff`       | Move a managed handoff to ready, waiting, deferred, or complete.                                              |
+| `review_handoffs`          | Group open obligations into the queues that need human attention.                                             |
+| `build_workstream_project` | Create a Things project with the standard human-control headings.                                             |
+| `workflow_status`          | Check Things read access and the required local tags without exposing task content.                           |
 
 ## Documentation
 
-| Read this | When you need to |
-| --- | --- |
-| [Getting started](docs/getting-started.md) | Install the server and skills, configure a host, and verify read access. |
-| [Tool reference](docs/tool-reference.md) | Check every parameter, return shape, validation rule, and error. |
-| [Workflows](docs/workflows.md) | Follow examples for reminders, decisions, waiting, deferral, completion, and projects. |
-| [Operations](docs/operations.md) | Reconcile uncertain writes, troubleshoot failures, or change runtime configuration. |
-| [Architecture](docs/architecture.md) | Understand lifecycle, notes, verification, and concurrency. |
-| [Contributing](CONTRIBUTING.md) | Change the service without crossing the live-write boundary. |
-| [Changelog](CHANGELOG.md) | See released and unreleased behavior changes. |
+| Read this                                  | When you need to                                                                       |
+| ------------------------------------------ | -------------------------------------------------------------------------------------- |
+| [Getting started](docs/getting-started.md) | Install the server and skills, configure a host, and verify read access.               |
+| [Tool reference](docs/tool-reference.md)   | Check every parameter, return shape, validation rule, and error.                       |
+| [Workflows](docs/workflows.md)             | Follow examples for reminders, decisions, waiting, deferral, completion, and projects. |
+| [Operations](docs/operations.md)           | Reconcile uncertain writes, troubleshoot failures, or change runtime configuration.    |
+| [Architecture](docs/architecture.md)       | Understand lifecycle, notes, verification, and concurrency.                            |
+| [Contributing](CONTRIBUTING.md)            | Change the service without crossing the live-write boundary.                           |
+| [Changelog](CHANGELOG.md)                  | See released and unreleased behavior changes.                                          |
 
 ## Quick start
 
